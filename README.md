@@ -42,3 +42,6 @@ ServiceManager.AddRecord(records). Запрашиваем ID, проверяем
 ServiceManager.SaveToFile(FilePath, records). Открываем BinaryWriter на создание, пишем количество записей, затем для каждой — все поля в том же порядке, что и при чтении, дата через ToBinary(). Выводим «БД сохранена».
 
 exit = true, цикл завершается, программа заканчивается. Default — сообщение «Неверный пункт меню».
+
+<img width="1093" height="527" alt="image" src="https://github.com/user-attachments/assets/d0fd09b6-d2e7-4ac7-8efa-d41d66d9aeb6" />
+
